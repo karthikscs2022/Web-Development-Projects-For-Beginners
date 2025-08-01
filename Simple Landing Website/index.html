@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingPage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--=====Navbar================-->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#">ContactUs</a></li>
+        </ul>
+        <img src="assets/menu-btn.png" alt="" class="menu-bar">
+    </nav>
+    <!---=========Header=============-->
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colourful World</h2>
+            <div class="line">
+            </div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!--==============Events=====================-->
+    <section>
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+    </section>
+
+    <article class="row">
+        <div class="col">
+            <img src="assets/img1.png" alt="" loading="lazy">
+            <h4>Everest Camp Trek</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem illo ipsa maiores omnis?
+                Doloribus numquam sapiente blanditiis placeat excepturi praesentium nisi enim laboriosam eveniet soluta,
+                incidunt libero eaque quia veritatis!</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+
+        <div class="col">
+            <img src="assets/img2.png" alt="">
+            <h4>
+                Holidays
+            </h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis tenetur ipsam dolores, et praesentium
+                dolorem quos doloribus? Suscipit, quos maxime tenetur cumque mollitia, earum officiis optio delectus
+                atque, adipisci iste.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </article>
+
+    <!-- ===========Explore =========================-->
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod amet nostrum natus vitae officia
+                voluptatibus,
+                error vel laudantium similique, voluptates explicabo dolore dolorum eos quidem ipsa recusandae dicta.
+                Itaque, inventore.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- ============== TOURS =============================================-->
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS AND DESTINATION</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium odit iure ipsum amet placeat
+                    nesciunt consequatur tenetur nam praesentium sapiente? Sint vitae modi quasi nemo dolor quod
+                    quisquam
+                    deserunt nulla.</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="assets/img3.png" alt="" loading="lazy">
+                    <img src="assets/img4.png" alt="" loading="lazy">
+                    <img src="assets/img5.png" alt="" loading="lazy">
+                    <img src="assets/img6.png" alt="" loading="lazy"">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--=======FOOTER ================================================-->
+    <div class=" footer">
+                    <div class="footer-content">
+                        <p>123 Fifth Avenue, NY 10160, New York, USA| Phone: 800-123-456 | Email:contact@example.com</p>
+                        <p>Copyright &copy; 2020 Outdoor Adventure </p>
+                    </div>
+                </div>
+
+
+
+                <script>
+
+                    const menuBtn = document.querySelector('.menu-bar')
+                    const navLinks = document.querySelector('.nav-link')
+
+                    menuBtn.addEventListener('click', () => { navLinks.classList.toggle('mobile-menu') })
+                </script>
+
+
+</body>
+
+</html>
